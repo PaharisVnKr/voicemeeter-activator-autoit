@@ -14,13 +14,13 @@
 DirCreate(@TempDir & "\VMPA")
 FileInstall("music.wav", @TempDir & "\VMPA\")
 
-GUICreate("VoiceMeeter Potato 3.0.1.3", 300, 160)
+GUICreate("VoiceMeeter Potato 3.1.1.1", 300, 160)
 GUISetBkColor(0x2C3D4D)
 
 GUICtrlCreateLabel("", 0, 0, 300, 80)
 GUICtrlSetBkColor(-1, 0x36495A)
 
-GUICtrlCreateLabel("VoiceMeeter Potato 3.0.1.3", 0, 20, 300, 20, $SS_CENTER)
+GUICtrlCreateLabel("VoiceMeeter Potato 3.1.1.1", 0, 20, 300, 20, $SS_CENTER)
 GUICtrlSetBkColor(-1, 0x36495A)
 GUICtrlSetColor(-1, 0xFFFFFF)
 GUICtrlSetFont (-1, 9, 800)
